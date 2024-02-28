@@ -44,8 +44,4 @@ public class Schritt2 {
     static void mal(int ersteZahl, int zweiteZahl) {
         System.out.println(ersteZahl * zweiteZahl);
     }
-
-    static void geteilt(int ersteZahl, int zweiteZahl) {
-        System.out.println(ersteZahl / zweiteZahl);
-    }
 }
