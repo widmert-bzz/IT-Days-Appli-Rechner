@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import javax.sound.midi.Soundbank;
-
 public class Schritt2 {
   public static void main(String[] args) {
 
@@ -22,19 +20,19 @@ public class Schritt2 {
     System.out.println(resulat);
   }
 
-  static float plus(int ersteZahl, int zweiteZahl) {
+  static void plus(int ersteZahl, int zweiteZahl) {
     System.out.println(ersteZahl + zweiteZahl);
   }
 
-  static float minus(int ersteZahl, int zweiteZahl) {
-    
+  static void minus(int ersteZahl, int zweiteZahl) {
+    System.out.println(ersteZahl - zweiteZahl);
   }
 
-  static float mal(int ersteZahl, int zweiteZahl) {
-
+  static void mal(int ersteZahl, int zweiteZahl) {
+    System.out.println(ersteZahl * zweiteZahl);
   }
 
-  static float geteilt(int ersteZahl, int zweiteZahl) {
-
+  static void geteilt(int ersteZahl, int zweiteZahl) {
+    System.out.println(ersteZahl / zweiteZahl);
   }
 }
