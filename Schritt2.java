@@ -6,13 +6,14 @@ public class Schritt2 {
         Scanner meineEingabe = new Scanner(System.in);
 
         System.out.println("Hallo!");
-        System.out.print("Gib deine erste Zahl ein: ");
-
-        int ersteZahl = meineEingabe.nextInt();
 
         System.out.println("Gib einen Operator ein (+, -, *)");
 
         String operator = meineEingabe.next();
+
+        System.out.print("Gib deine erste Zahl ein: ");
+
+        int ersteZahl = meineEingabe.nextInt();
 
         System.out.print("Gib deine zweite Zahl ein: ");
 
